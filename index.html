@@ -2,16 +2,28 @@
 <html>
     <head>
         <link href="/styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <title>Google</title>
         <body>
-            <div class="navbar"></div>
+            <div class="navbar">
+                <ul class="navbar_left_list">
+                      <li class="navbar_left1">About</li>
+                      <li class="navbar_left2">Store</li>
+                  </ul> 
+                <div class="navbar_right">
+                    <ul class="navbar_right_list">
+                        <li class="navbar_right1">Gmail</li>
+                        <li class="navbar_right2">Store</li>
+                    </ul>
+                </div>
+            </div>
             <div class="logo">
-                <img src="\googlelogo.png" alt="">
+                <img src="\images\googlelogo.png" alt="">
             </div>
             <div class="search_container">
                 <div class="search_bar">
-                    <img id=search_icon src="search_black_24dp.svg" alt="">
-                    <input class="search_input" type="text" title="search" value="">
+                    <span class="material-icons">search</span>
+                    <input id="search_input" type="text" title="search" value="">
                 </div>
             </div>
             <div class="page_space"></div>

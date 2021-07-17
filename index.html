@@ -4,30 +4,29 @@
         <link href="/styles.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <title>Google</title>
-        <body>
-            <div class="navbar">
-                <ul class="navbar_left_list">
-                      <li class="navbar_left1">About</li>
-                      <li class="navbar_left2">Store</li>
-                  </ul> 
-                <div class="navbar_right">
-                    <ul class="navbar_right_list">
-                        <li class="navbar_right1">Gmail</li>
-                        <li class="navbar_right2">Store</li>
-                    </ul>
-                </div>
+    </head> 
+    <body>
+        <div class="navbar">
+            <a class="navbar-about" href="">About</a>
+            <a class="navbar-store" href="">Store</a>
+            <div class="navbar-right-container">
+              <div class="navbar-right">
+                <a class="navbar-gmail" href="">Gmail</a>
+                <a class="navbar-images" href="">Images</a>
+              </div>
+          </div>  
+        </div>
+            
+        <div class="logo">
+            <img src="\images\googlelogo.png" alt="">
+        </div>
+        <div class="search-container">
+            <div class="search-bar">
+                <span class="material-icons">search</span>
+                <input id="search-input" type="text" title="search" value="">
             </div>
-            <div class="logo">
-                <img src="\images\googlelogo.png" alt="">
-            </div>
-            <div class="search_container">
-                <div class="search_bar">
-                    <span class="material-icons">search</span>
-                    <input id="search_input" type="text" title="search" value="">
-                </div>
-            </div>
-            <div class="page_space"></div>
-            <div class="footer"></div>
-        </body>
-    </head>
-    </html> 
+        </div>
+        <div class="page-space"></div>
+        <div class="footer"></div>
+    </body>
+</html> 

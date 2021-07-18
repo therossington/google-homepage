@@ -43,49 +43,50 @@ a {
 
 .navbar-right {
     float: right;
-    align-items: center;
     padding-right: 4px;
 }
 
 .navbar-gmail {
     font-size: 13px;
-    padding: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
+    padding-left: 15px;
 }
 
 .navbar-images {
     font-size: 13px;
-    padding: 5px;
-    margin-left: 5px;
-    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
 }
 
 .navbar-apps {
     display: inline-block;
     vertical-align: middle;
+    padding: 8px;
 }
 
 .navbar-sign-in {
-    padding-top: 9px;
-    padding-left: 23px;
-    padding-bottom: 9px;
-    padding-right: 23px;
+    padding: 9px 23px 9px 23px;
     margin-left: 8px;
     margin-right: 8px;
     line-height: 16px;
+    letter-spacing: 0.25px;
     font-size: 14px;
     font-weight: 500;
     border-radius: 4px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
     color: #fff;
     background: #1a73e8;
     border: 1px solid transparent;
+    vertical-align: middle;
+    min-width: 96px;
 }
 
 #apps {
     color: #5f6368;
-    height: 24px;
-    width: 24px;
+    height: 40px;
+    width: 40px;
+    padding: 4px;
+    display: inline;
 }
 
     .logo {

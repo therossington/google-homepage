@@ -29,11 +29,20 @@ a {
     margin-right: 5px;
 }
 
+.navbar-about:hover {
+    text-decoration: underline;
+}
+
+
 .navbar-store {
     display: inline-block;
     padding: 5px;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.navbar-store:hover {
+    text-decoration: underline;
 }
 
 .navbar-right-container {
@@ -51,16 +60,18 @@ a {
     padding-left: 15px;
 }
 
+.navbar-gmail:hover{
+    text-decoration: underline;
+}
+
 .navbar-images {
     font-size: 13px;
     padding-left: 10px;
     padding-right: 15px;
 }
 
-.navbar-apps {
-    display: inline-block;
-    vertical-align: middle;
-    padding: 8px;
+.navbar-images:hover {
+    text-decoration: underline;
 }
 
 .navbar-sign-in {
@@ -81,24 +92,71 @@ a {
     min-width: 96px;
 }
 
+.navbar-sign-in:hover {
+    background: #2b7de9;
+    cursor: pointer;
+}
+
+.navbar-right-container-1 {
+    display: inline-block;
+}
+
+.navbar-apps-container {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px;
+}
+
+.navbar-apps-container:hover {
+    background-color: rgba(60,64,67,0.08);
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
 #apps {
     color: #5f6368;
     height: 40px;
     width: 40px;
-    padding: 4px;
     display: inline;
 }
 
-    .logo {
+.logo-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.logo {
+    margin-top: 66px;
+}
+
+img {
+    max-height: 92px;
+    object-fit: contain;
+    object-position: center bottom;
 }
 
 .search-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
+}
+
+.search-container-1 {
+    width: auto;
+    max-width: 584px;
+    padding: 6px;
+}
+
+.search-bar {
+    display: flex;
+    width: 582px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    padding: 5px 8px 0px 16px;
 }
 
 #search-input {
@@ -106,7 +164,22 @@ a {
 }
 
 #search-icon {
+    display: flex;
     color: #9aa0a6;
-    height: 20px;
-    width: 20px;
+    font-size: 20px;
+    align-items: center;
+    margin-top: -5px;
+    padding-right: 13px;
+}
+
+.search-button-container {
+    padding-top: 18px;
+}
+
+.search-button-1 {
+    margin: 11px 4px;
+}
+
+.search-button-2 {
+    margin: 11px 4px;
 }

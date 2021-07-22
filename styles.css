@@ -34,20 +34,11 @@ a {
     margin-right: 5px;
 }
 
-.navbar-about:hover {
-    text-decoration: underline;
-}
-
-
 .navbar-store {
     display: inline-block;
     padding: 5px;
     margin-left: 5px;
     margin-right: 5px;
-}
-
-.navbar-store:hover {
-    text-decoration: underline;
 }
 
 .navbar-right-container {
@@ -65,7 +56,7 @@ a {
     padding-left: 15px;
 }
 
-.navbar-gmail:hover{
+.navbar-gmail:hover, .navbar-images:hover, .navbar-store:hover, .navbar-about:hover {
     text-decoration: underline;
 }
 
@@ -73,10 +64,6 @@ a {
     font-size: 13px;
     padding-left: 10px;
     padding-right: 15px;
-}
-
-.navbar-images:hover {
-    text-decoration: underline;
 }
 
 .navbar-sign-in {
@@ -138,8 +125,6 @@ a {
 
 img {
     max-height: 92px;
-    object-fit: contain;
-    object-position: center bottom;
 }
 
 .search-container {
@@ -147,12 +132,10 @@ img {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    flex-shrink: 0;
     max-height: 160px;
 }
 
 .search-container-1 {
-    width: auto;
     max-width: 584px;
     padding: 6px;
 }
@@ -179,7 +162,6 @@ img {
     width: 525px;
     font-size: 16px;
     outline: none;
-    background-color: transparent;
 }
 
 #search-icon {
@@ -247,7 +229,6 @@ img {
 
 .footer-container {
     background-color: #f2f2f2;
-    flex-shrink: 0;
 }
 
 .footer-1 {
@@ -264,46 +245,17 @@ img {
     padding: 0px 20px;
 }
 
-.footer-2-left {
+.footer-2-left, .footer-2-right {
     display: flex;
 }
 
-.footer-advertising {
+.footer-advertising, .footer-business, .footer-hsw, .footer-privacy, .footer-terms, .footer-settings {
     display: block;
     padding: 15px;
     color: #70757a;
+    cursor: pointer;
 }
 
-.footer-business {
-    display: block;
-    padding: 15px;
-    color: #70757a;
-}
-
-.footer-hsw {
-    display: block;
-    padding: 15px;
-    color: #70757a;
-}
-
-.footer-2-right {
-    display: flex;
-}
-
-.footer-privacy {
-    display: block;
-    padding: 15px;
-    color: #70757a;
-}
-
-.footer-terms {
-    display: block;
-    padding: 15px;
-    color: #70757a;
-}
-
-.footer-settings {
-    display: block;
-    padding: 15px;
-    color: #70757a;
+.footer-advertising:hover, .footer-business:hover, .footer-hsw:hover, .footer-privacy:hover, .footer-terms:hover, .footer-settings:hover {
+     text-decoration: underline;
 }
